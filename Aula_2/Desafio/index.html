@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <style>
+    @font-face {
+      font-family: fonte1;
+      src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+    }
+
+    @font-face {
+      font-family: fonte2;
+      src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    }
+
+    h1, h2, h3 {
+      font-family: fonte1;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    img {
+      
+      border: 1px solid;
+      
+      
+    }
+    body {
+      background: hsl(30, 54%, 90%);
+      padding: 5% 0% 0% 0%;
+      font-family: fonte2;
+      font-size: 12px;
+    }
+    body h4 {
+      color: hsl(332, 51%, 32%);
+    }
+    body h3 {
+      color: #8A4937;
+    }
+
+    section {
+      margin: auto;
+      width: 430px;
+      background: hsl(0, 0%, 100%);
+      padding: 2%;
+      border-radius: 0.5%;
+    }
+
+    ol {
+      padding-inline-start: 15px;
+    }
+
+    ul {
+      padding-inline-start: 15px;
+    }
+
+    tr {
+      text-align: justify;
+      margin: 80px;
+      border-color: #8A4937;
+    }
+
+    th {
+      padding: 15px 150px 15px 0;
+      border-bottom: 1px solid;
+    }
+
+    #vermelho {
+      color: #8A4937;
+    }
+
+    hr {
+      background: hsl(30, 18%, 87%);
+    }
+
+    .preparacao {
+      background: #f9eef4;
+      padding: 2%;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <header>
+      <img src="assets/images/image-omelette.jpeg" height="200">
+    </header>
+
+    <h1>Receita Simples de Omelete</h1>
+    <p>
+      Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos
+      com perfeição, opcionalmente recheado com queijo, vegetais ou carnes de sua escolha.
+    </p>
+    <div class="preparacao">
+      <h4>Tempo de preparação</h4>
+      <ul>
+        <li><b>Total</b>: Aproximadamente 10 minutos</li>
+        <li><b>Preparação</b>: 5 minutos</li>
+        <li><b>Cozinhando</b>: 5 minutos</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Ingredientes </h3>
+      <ul>
+        <li>2-3 ovos grandes </li>
+        <li>Sal a gosto </li>
+        <li>Pimenta a gosto </li>
+        <li> 1 colher de sopa de manteiga ou óleo </li>
+        <li> Recheios opcionais: queijo, legumes em cubos, carnes cozidas, ervas</li>
+      </ul>
+      <hr>
+      <h3>Instruções</h3>
+      <ol>
+        <li><b>Bata os ovos</b>: Numa tigela, bata os ovos com
+          uma pitada de sal e pimenta até ficarem bem misturados. Você pode adicionar uma colher de sopa de água ou
+          leite para obter uma textura mais fofa. </li>
+        <li><b>Aqueça a panela</b>: Coloque uma frigideira antiaderente em fogo médio e adicione
+          manteiga ou óleo.</li>
+        <li><b>Cozinhe a omelete</b>: Assim que a manteiga derreter e borbulhar, coloque os ovos. Incline a panela
+          para garantir os ovos cobrem uniformemente a superfície. </li>
+        <li><b>Adicione recheios (opcional)</b>: Quando os ovos
+          começarem
+          a
+          endurecer nas bordas, mas ainda estiverem um pouco escorrendo no no meio, polvilhe os recheios escolhidos
+          sobre
+          metade da omelete.</li>
+        <li><b>Dobre e sirva</b>: Enquanto a omelete continua cozinhando, levante cuidadosamente uma das
+          pontas
+          e
+          dobre-a sobre o recheios. Deixe cozinhar por mais um minuto e depois coloque-o em um prato. </li>
+        <li><b>Aproveite</b>: Sirva
+          quente, com mais sal e pimenta se necessário. </li>
+
+    </div>
+    <hr>
+    <h3>Nutrição</h3>
+    <table>
+      <p>A tabela abaixo mostra os valores nutricionais por porção
+        sem recheios adicionais. </p>
+      <tr>
+        <th>Calorias</th>
+        <th id="vermelho">277kcal</th>
+      </tr>
+      <tr>
+        <th>Carboidratos</th>
+        <th id="vermelho">0g</th>
+      </tr>
+      <tr>
+        <th>Proteína</th>
+        <th id="vermelho">20g</th>
+      </tr>
+      <tr>
+        <th>Gordura</th>
+        <th id="vermelho">22g</th>
+      </tr>
+    </table>
+  </section>
+
+  <div class="attribution">
+    Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    codificado por <a href="#">Seu nome aqui</a>.
+  </div>
+</body>
+
+</html>
